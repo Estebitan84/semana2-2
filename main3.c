@@ -10,7 +10,7 @@ float calcularvolumen(float area1, float altura);
 int main (int argc, char *argv[]) {
     float puntos [4][3]= {{0,0,3} , {3,0,0} , {0,0,0}, {1,7,1}};
     float per1, perimetro2, perimetro3, perimetro4, lado1, lado2, lado3, lado4, lado5, lado6;
-    calcularperimetro(puntos, &per1, &per2, &per3, &per4, &l1, &l2, &l3, &l4, &l5, &l6);
+    calcularperimetro(puntos, &perimetro1, &perimetro2, &perimetro3, &perimertro4, &lado1, &lado2, &lado3, &lado4, &lado5, &lado6);
     float area1= calculararea(perimetro1, lado1, lado2, lado3);
     float area2= calculararea(perimetro2, lado2, lado4, lado6);
     float area3= calculararea(perimetro3, lado3, lado5, lado6);
